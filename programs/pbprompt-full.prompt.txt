@@ -1,0 +1,1 @@
+Create a color application icon. The application is used to store AI prompts. No square background for the icon. The icon occupies as much space as possible in the image

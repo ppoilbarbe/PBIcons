@@ -1,0 +1,1 @@
+Create a color icon with rounded corners. Flat colors only, no gradient. The icon represents rotation according to EXIF orientation. No text in the icon

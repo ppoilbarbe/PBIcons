@@ -1,0 +1,10 @@
+config:
+  # Line length not enforced — README tables and descriptions are naturally long
+  MD013: false
+  # Duplicate headings allowed when they live under different parent sections
+  MD024:
+    siblings_only: true
+
+# CLAUDE.md is an intentionally compact tool-specific file
+ignores:
+  - CLAUDE.md

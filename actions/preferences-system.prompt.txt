@@ -1,0 +1,1 @@
+Create a color icon with rounded corners. The icon occupies the full width and height. Flat colors only, no gradient. No text in the icon. The icon represents modifying preferences (gear wheel).

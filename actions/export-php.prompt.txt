@@ -1,0 +1,1 @@
+Create a color icon with rounded corners (115 pixel radius). The icon occupies the full width and height of the image. The icon's background is blue RGB #2E77FF. The backdrop (visible only in the corners) is white RGB #ffffff. Flat colors only, no gradient. 64-pixel-tall "PHP" text at the top of the icon, no other text. The icon represents a PHP export to a specified file.

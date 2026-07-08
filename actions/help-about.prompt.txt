@@ -1,0 +1,1 @@
+Create a color icon with rounded corners. Flat colors only, no gradient. No text in the icon. The icon represents opening an "About" dialog box
