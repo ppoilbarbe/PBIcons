@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Versions are numbered `AAAA.n` — the year of release, followed by a
 sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
-## [Unreleased]
+## [2026.2] - 2026-07-09
 
 ### Added
 
@@ -22,6 +22,9 @@ sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
 ### Changed
 
+- `LICENSE`: replaced the human-readable summary with the full legal text
+  of the CC BY-NC-SA 4.0 license, so that GitHub's license detector
+  recognizes it.
 - Normalized the root `<svg>` element of several existing `actions/` icons
   (`auto-rotate`, `configure`, `delete`, `duplicate`, `folder-new`,
   `folder-open`, `help-about`, `help-keyboard-shortcuts`, `history`,
