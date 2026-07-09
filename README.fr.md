@@ -39,10 +39,16 @@ La plupart des images pixel (`.png`), sinon toutes, suivent ce processus :
 2. **Retouche** — l'image générée est retravaillée avec GIMP, notamment pour ajouter ou corriger la transparence.
 3. **Vectorisation** — pour les icônes réellement utilisées par les programmes, l'image pixel retravaillée est convertie en fichier vectoriel (`.svg`), qui est le format réellement utilisé dans les programmes cibles.
 
+## Contribuer
+
+Après avoir cloné ce dépôt, lancez `make setup` pour installer les hooks
+pre-commit (espaces en fin de ligne, lint markdown, contrôle des gros
+fichiers et de Git LFS, etc.) qui s'exécutent automatiquement avant
+chaque commit.
+
 ## Projets utilisant ces images
 
-Cette liste n'est pas exhaustive, mais les projets GitHub suivants, tous
-sous [github.com/ppoilbarbe](https://github.com/ppoilbarbe), utilisent des
+Cette liste n'est pas exhaustive, mais les projets GitHub suivants utilisent des
 images de ce dépôt :
 
 - [PBCardolan](https://github.com/ppoilbarbe/PBCardolan)

@@ -38,10 +38,15 @@ Most (if not all) pixel images (`.png`) follow this process:
 2. **Rework** — the generated image is touched up in GIMP, in particular to add or fix transparency.
 3. **Vectorization** — for icons actually used by the programs, the reworked pixel image is converted into a vector file (`.svg`), which is the format actually used in the target programs.
 
+## Contributing
+
+After cloning this repository, run `make setup` to install the
+pre-commit hooks (trailing whitespace, markdown linting, large-file and
+Git LFS checks, etc.) that run automatically before each commit.
+
 ## Projects using these images
 
-This is not an exhaustive list, but the following GitHub projects, all
-under [github.com/ppoilbarbe](https://github.com/ppoilbarbe), use images
+This is not an exhaustive list, but the following GitHub projects use images
 from this repository:
 
 - [PBCardolan](https://github.com/ppoilbarbe/PBCardolan)

@@ -14,3 +14,11 @@ repos:
     rev: v0.22.1
     hooks:
       - id: markdownlint-cli2
+
+  - repo: local
+    hooks:
+      - id: check-large-svg-lfs
+        name: check that large SVG files are tracked by Git LFS
+        entry: scripts/check-lfs-svg.sh
+        language: script
+        files: '\.svg$'
