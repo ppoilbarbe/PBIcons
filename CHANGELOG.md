@@ -6,6 +6,32 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Versions are numbered `AAAA.n` — the year of release, followed by a
 sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
+## [Unreleased]
+
+### Added
+
+- 20 new `actions/` icons, each with its pixel source (`.png`), vector
+  version (`.svg`), and short description (`.md`): `add`, `calendar-day`,
+  `calendar-journal`, `calendar-time-spent`, `calendar-timeline`,
+  `calendar-work-week`, `cancel`, `edit`, `error`, `left`, `next`, `ok`,
+  `piechart`, `previous`, `question`, `refresh-data`, `refresh`, `remove`,
+  `right`, `warning`. Most of them also include the generative-AI prompt
+  used to create them (`.prompt.txt`).
+- `programs/pbregisteractivity.svg`, the vector version of the
+  PBRegisterActivity program icon.
+
+### Changed
+
+- Normalized the root `<svg>` element of several existing `actions/` icons
+  (`auto-rotate`, `configure`, `delete`, `duplicate`, `folder-new`,
+  `folder-open`, `help-about`, `help-keyboard-shortcuts`, `history`,
+  `object-flip-vertical`, `object-rotate-left`, `object-rotate-right`,
+  `open`, `open-with`, `preferences-system`, `quit`, `rename-template`,
+  `reset-exif`, `view-refresh`, `zoom-fit`, `zoom-height`, `zoom-in`,
+  `zoom-original`, `zoom-out`, `zoom-width`): replaced the
+  `style="width: 100%; height: 100%;"` attribute with explicit
+  `width="1024" height="1024"` attributes.
+
 ## [2026.1] - 2026-07-09
 
 ### Added
