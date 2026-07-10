@@ -1,0 +1,1 @@
+Create a Git repository icon containing images, photos, and icons. The background is a solid color that contrasts with all the icon's border colors (to facilitate cropping). The icon's content occupies the maximum amount of space within the final image.

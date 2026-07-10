@@ -4,6 +4,10 @@ config:
   # Duplicate headings allowed when they live under different parent sections
   MD024:
     siblings_only: true
+  # <img> needed for explicit width/height (Markdown image syntax has none)
+  MD033:
+    allowed_elements:
+      - img
 
 # CLAUDE.md is an intentionally compact tool-specific file
 ignores:

@@ -1,5 +1,7 @@
 # PBIcons
 
+<img src="programs/pbicons.png" alt="PBIcons logo" width="512" height="512" />
+
 A personal repository of images produced by Philippe Poilbarbe (PB): mostly
 icons used across the various programs he develops, but also other images
 for those programs, for his website ([cardolan.net](https://www.cardolan.net)),

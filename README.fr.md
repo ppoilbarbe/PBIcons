@@ -1,5 +1,7 @@
 # PBIcons
 
+<img src="programs/pbicons.png" alt="Logo PBIcons" width="512" height="512" />
+
 Dépôt personnel des images produites par Philippe Poilbarbe (PB) : surtout
 des icônes utilisées dans les différents programmes qu'il développe, mais
 aussi d'autres images pour ces programmes, pour son site web

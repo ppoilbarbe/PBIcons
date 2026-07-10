@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Versions are numbered `AAAA.n` — the year of release, followed by a
 sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
+## [2026.3] - 2026-07-10
+
+### Added
+
+- `programs/pbicons.png`, the logo icon for this repository itself, along
+  with its generative-AI prompt (`pbicons.prompt.txt`).
+
+### Changed
+
+- `README.md` / `README.fr.md`: display the new PBIcons logo at the top of
+  the page.
+
 ## [2026.2] - 2026-07-09
 
 ### Added
