@@ -8,6 +8,8 @@ sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
 ## [Unreleased]
 
+## [2026.4] - 2026-07-14
+
 ### Added
 
 - 5 new `cardolan/` button icons for the [cardolan.net](https://www.cardolan.net)
