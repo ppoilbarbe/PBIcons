@@ -1,0 +1,1 @@
+Create a background tile that, when tiled seamlessly, shows no visible breaks (the left edge must join the right edge, and the same applies to the top and bottom edges). The content depicts circuit connections via optical fibers.

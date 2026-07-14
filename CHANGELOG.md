@@ -13,6 +13,25 @@ sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 - 5 new `cardolan/` button icons for the [cardolan.net](https://www.cardolan.net)
   website, each with its generative-AI prompt (`.prompt.txt`):
   `btn-cocktails`, `btn-links`, `btn-mahjong`, `btn-programs`, `btn-recipes`.
+- `cardolan/pi.png` and `cardolan/pi-small.png`, the pi icon for the
+  [cardolan.net](https://www.cardolan.net) website.
+- `cardolan/praetorians-background-orig.png` and
+  `cardolan/praetorians-background.jpg`, background images for the
+  [cardolan.net](https://www.cardolan.net) website, along with the
+  generative-AI prompt used to create them
+  (`praetorians-background-orig.prompt.txt`).
+- `programs/pbkdenlivetools.png`, the icon for the PBKDEnliveTools program,
+  along with its generative-AI prompt (`pbkdenlivetools.prompt.txt`).
+
+### Fixed
+
+- `programs/pbrenamer.png`, the missing pixel source for the PBRenamer
+  program icon.
+
+### Changed
+
+- `LICENSE`: removed the redundant copyright/summary header left over from
+  the previous release, keeping only the full CC BY-NC-SA 4.0 legal text.
 
 ## [2026.3] - 2026-07-10
 
