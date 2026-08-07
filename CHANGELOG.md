@@ -8,6 +8,21 @@ sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
 ## [Unreleased]
 
+### Added
+
+- `scripts/make-icons.sh`, a script generating a Windows `.ico` and/or a
+  macOS `.icns` file from a source `.png` or `.svg`, stripping a trailing
+  `-full` or `-WxH` resolution suffix (e.g. `-512x512`) from the output name.
+- `Makefile`: `PROGRAM_ICONS` variable and `build-icons-windows`,
+  `build-icons-macos`, `build-icons` targets to (re)generate `.ico`/`.icns`
+  files for the listed program icons via `scripts/make-icons.sh`, only when
+  their source file has changed.
+- `programs/pbpicat.ico`, `programs/pbpicat.icns`,
+  `programs/pbprompt.ico`, `programs/pbprompt.icns`,
+  `programs/pbregisteractivity.ico`, `programs/pbregisteractivity.icns`,
+  `programs/pbrenamer.ico`, `programs/pbrenamer.icns`, generated via the new
+  `build-icons` Makefile target.
+
 ## [2026.5] - 2026-08-07
 
 ### Added
