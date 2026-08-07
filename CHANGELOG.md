@@ -8,6 +8,30 @@ sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
 ## [Unreleased]
 
+## [2026.5] - 2026-08-07
+
+### Added
+
+- `actions/document-properties.png` and `actions/document-properties.svg`,
+  a new action icon, along with its generative-AI prompt
+  (`document-properties.prompt.txt`).
+- `cardolan/hobbit-home-try3.jpg`, a new hobbit-home illustration variant
+  for the [cardolan.net](https://www.cardolan.net) website, along with its
+  generative-AI prompt (`hobbit-home-try3.prompt.txt`).
+- `cardolan/the-one-1024x1024.jpg` and `cardolan/the-one-disk.jpg` /
+  `cardolan/the-one-disk.png`, new Cardolan/One Ring images for the
+  [cardolan.net](https://www.cardolan.net) website, along with their
+  generative-AI prompts (`the-one-1024x1024.prompt.txt`,
+  `the-one-disk.prompt.txt`).
+- `media/movie.png` and `media/movie.svg`, a new media icon, along with its
+  generative-AI prompt (`movie.prompt.txt`).
+- `.pre-commit-config.yaml`: `mixed-line-ending` hook (`--fix=lf`).
+
+### Changed
+
+- `cardolan/hobbit-home-button-big.png` and `cardolan/hobbit-home.jpg`:
+  updated artwork, with `cardolan/hobbit-home.prompt.txt` updated to match.
+
 ## [2026.4] - 2026-07-14
 
 ### Added
