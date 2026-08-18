@@ -40,6 +40,13 @@ Most (if not all) pixel images (`.png`) follow this process:
 2. **Rework** — the generated image is touched up in GIMP, in particular to add or fix transparency.
 3. **Vectorization** — for icons actually used by the programs, the reworked pixel image is converted into a vector file (`.svg`), which is the format actually used in the target programs.
 
+### Exception: mouse cursors (`cursors/`)
+
+Mouse cursors do not follow the process above: the `.svg` is the original
+image, and the `xxx.png`, `xxx@2x.png`, `xxx@3x.png` files are generated
+from it, at 32×32, 64×64, and 96×96 respectively — a Qt naming convention
+for HiDPI screen resolutions.
+
 ## Contributing
 
 After cloning this repository, run `make setup` to install the

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Flèche identique à copy.svg / move.svg / link.svg : même pointe centrée (32,32) -->
+  <path d="M32 32 L32 58 L38 53 L43 60 L48 57 L41 48 L50 48 Z"
+        fill="#1a1a1a" stroke="#ffffff" stroke-width="3"
+        stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Badge "interdit" : disque rouge avec barre diagonale, gabarit identique
+       (même empreinte 20x20 centrée en 50,50) que les badges carrés des autres états -->
+  <circle cx="50" cy="50" r="10" fill="#e02020" stroke="#ffffff" stroke-width="3"/>
+  <line x1="43" y1="43" x2="57" y2="57" stroke="#ffffff" stroke-width="4"
+        stroke-linecap="round"/>
+</svg>

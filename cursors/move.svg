@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Flèche identique à copy.svg : même pointe centrée (32,32), pour ne pas
+       faire "sauter" le hotspot visuel lors du changement d'état pendant le drag -->
+  <path d="M32 32 L32 58 L38 53 L43 60 L48 57 L41 48 L50 48 Z"
+        fill="#1a1a1a" stroke="#ffffff" stroke-width="3"
+        stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Badge "déplacement" : carré arrondi bleu avec icône 4 directions -->
+  <rect x="40" y="40" width="20" height="20" rx="5" ry="5"
+        fill="#2b7de9" stroke="#ffffff" stroke-width="3"/>
+  <path d="M50 50 L50 45 M50 50 L50 55 M50 50 L45 50 M50 50 L55 50"
+        stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M50 42 L47 46 L53 46 Z" fill="#ffffff"/>
+  <path d="M50 58 L47 54 L53 54 Z" fill="#ffffff"/>
+  <path d="M42 50 L46 47 L46 53 Z" fill="#ffffff"/>
+  <path d="M58 50 L54 47 L54 53 Z" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Flèche : pointe centrée sur le canevas (32,32) pour coïncider avec le
+       hotspot par défaut (centré) de QDrag.setDragCursor. Canevas 2x pour
+       ne pas sacrifier le détail dans le quadrant utile : rasteriser à 64x64
+       puis pixmap.setDevicePixelRatio(2.0) -> curseur affiché à 32px logiques. -->
+  <path d="M32 32 L32 58 L38 53 L43 60 L48 57 L41 48 L50 48 Z"
+        fill="#1a1a1a" stroke="#ffffff" stroke-width="3"
+        stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Badge "copie" : carré arrondi vert avec un "+" blanc -->
+  <rect x="40" y="40" width="20" height="20" rx="5" ry="5"
+        fill="#2e9e4f" stroke="#ffffff" stroke-width="3"/>
+  <path d="M50 44 V56 M44 50 H56"
+        stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+</svg>

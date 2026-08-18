@@ -41,6 +41,14 @@ La plupart des images pixel (`.png`), sinon toutes, suivent ce processus :
 2. **Retouche** — l'image générée est retravaillée avec GIMP, notamment pour ajouter ou corriger la transparence.
 3. **Vectorisation** — pour les icônes réellement utilisées par les programmes, l'image pixel retravaillée est convertie en fichier vectoriel (`.svg`), qui est le format réellement utilisé dans les programmes cibles.
 
+### Exception : curseurs de souris (`cursors/`)
+
+Les curseurs de souris ne suivent pas le processus ci-dessus : le `.svg`
+est l'image originale, et les fichiers `xxx.png`, `xxx@2x.png`,
+`xxx@3x.png` sont générés à partir de celui-ci, respectivement en
+32×32, 64×64 et 96×96 — une convention de nommage Qt pour les
+résolutions d'écrans HiDPI.
+
 ## Contribuer
 
 Après avoir cloné ce dépôt, lancez `make setup` pour installer les hooks
