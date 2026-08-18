@@ -31,6 +31,10 @@ sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
 - `README.md` / `README.fr.md`: documented the `cursors/` exception to the
   production workflow (SVG-first, with pixel variants generated from it).
+- `cursors/move.svg` (and its `.png`, `@2x.png`, `@3x.png` variants): badge
+  icon changed from a 4-direction arrow cross to a diagonal X, which was
+  too visually similar to the `+` badge of `cursors/copy.svg` and nearly
+  overlapped it at small sizes.
 
 ## [2026.5] - 2026-08-07
 
