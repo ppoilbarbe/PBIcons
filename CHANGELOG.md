@@ -22,7 +22,7 @@ sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
   `programs/pbregisteractivity.ico`, `programs/pbregisteractivity.icns`,
   `programs/pbrenamer.ico`, `programs/pbrenamer.icns`, generated via the new
   `build-icons` Makefile target.
-- `cursors/` directory: `copy`, `forbidden`, `link`, `move` mouse cursors,
+- `cursors/` directory: `alias`, `copy`, `move`, `not-allowed` mouse cursors,
   each as a `.svg` (the original image) plus `.png`, `@2x.png`, `@3x.png`
   variants generated from it at 32×32, 64×64, and 96×96, following the Qt
   naming convention for HiDPI screen resolutions.

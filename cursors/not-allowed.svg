@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <!-- Flèche identique à copy.svg / move.svg / link.svg : même pointe centrée (32,32) -->
+  <!-- Flèche identique à copy.svg / move.svg / alias.svg : même pointe centrée (32,32) -->
   <path d="M32 32 L32 58 L38 53 L43 60 L48 57 L41 48 L50 48 Z"
         fill="#1a1a1a" stroke="#ffffff" stroke-width="3"
         stroke-linejoin="round" stroke-linecap="round"/>
