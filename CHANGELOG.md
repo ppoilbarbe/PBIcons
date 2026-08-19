@@ -10,6 +10,12 @@ sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
 ### Added
 
+- `actions/sidecars.png` and `actions/sidecars.svg`, a new action icon,
+  along with its generative-AI prompt (`sidecars.prompt.txt`).
+- `programs/pbkittyconfigstudio-full.png` and
+  `programs/pbkittyconfigstudio.png`, the icon for the PBKittyConfigStudio
+  program, along with its generative-AI prompt
+  (`pbkittyconfigstudio-full.prompt.txt`).
 - `scripts/make-icons.sh`, a script generating a Windows `.ico` and/or a
   macOS `.icns` file from a source `.png` or `.svg`, stripping a trailing
   `-full` or `-WxH` resolution suffix (e.g. `-512x512`) from the output name.

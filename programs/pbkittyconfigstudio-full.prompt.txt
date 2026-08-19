@@ -1,0 +1,1 @@
+Créer une icône pour un dépôt contenant une éditeur de configuration de Kitty (console). Aucun texte.Fond de couleur unie qui contraste avec l'icône pour faciliter le découpage. L'icône occupe le maximum de place dans l'image.
