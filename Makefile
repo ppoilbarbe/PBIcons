@@ -1,8 +1,9 @@
 .PHONY: help setup build-icons build-icons-windows build-icons-macos
 
-PROGRAM_ICONS := programs/pbpicat-full.png \
-			     programs/pbprompt-full.png \
-			     programs/pbrecipe-512x512.png \
+PROGRAM_ICONS := programs/pbkittyconfigstudio-full.png \
+				 programs/pbpicat-full.png \
+				 programs/pbprompt-full.png \
+				 programs/pbrecipe-512x512.png \
 				 programs/pbregisteractivity.svg \
 				 programs/pbrenamer.svg
 
