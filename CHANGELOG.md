@@ -8,6 +8,8 @@ sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
 ## [Unreleased]
 
+## [2026.6] - 2026-08-28
+
 ### Added
 
 - `actions/sidecars.png` and `actions/sidecars.svg`, a new action icon,
