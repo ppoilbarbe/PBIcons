@@ -8,6 +8,13 @@ sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
 ## [Unreleased]
 
+### Added
+
+- `actions/clear-all-data.md`, `actions/document-properties.md`,
+  `actions/help-config-options.md`, `actions/help-user-manual.md`, and
+  `actions/sidecars.md`, the missing description files for those action
+  icons.
+
 ## [2026.6] - 2026-08-28
 
 ### Added
