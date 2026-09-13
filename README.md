@@ -59,6 +59,7 @@ This is not an exhaustive list, but the following GitHub projects use images
 from this repository:
 
 - [PBCardolan](https://github.com/ppoilbarbe/PBCardolan)
+- [PBNightingale](https://github.com/ppoilbarbe/PBNightingale)
 - [PBPicat](https://github.com/ppoilbarbe/PBPicat)
 - [PBPrompt](https://github.com/ppoilbarbe/PBPrompt)
 - [PBRecipe](https://github.com/ppoilbarbe/PBRecipe)

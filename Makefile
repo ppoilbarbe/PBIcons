@@ -1,11 +1,12 @@
 .PHONY: help setup build-icons build-icons-windows build-icons-macos
 
 PROGRAM_ICONS := programs/pbkittyconfigstudio-full.png \
-				 programs/pbpicat-full.png \
-				 programs/pbprompt-full.png \
-				 programs/pbrecipe-512x512.png \
-				 programs/pbregisteractivity.svg \
-				 programs/pbrenamer.svg
+		 programs/pbnightingale.png \
+		 programs/pbpicat-full.png \
+		 programs/pbprompt-full.png \
+		 programs/pbrecipe-512x512.png \
+		 programs/pbregisteractivity.svg \
+		 programs/pbrenamer.svg
 
 # Icon base name for a source file: drop the directory and extension, then a
 # trailing -full or -WxH resolution suffix, matching scripts/make-icons.sh.

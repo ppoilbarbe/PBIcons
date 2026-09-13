@@ -8,6 +8,8 @@ sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
 ## [Unreleased]
 
+## [2026.7] - 2026-09-13
+
 ### Added
 
 - `actions/clear-all-data.md`, `actions/document-properties.md`,
