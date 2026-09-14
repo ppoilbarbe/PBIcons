@@ -1,4 +1,4 @@
-.PHONY: help setup build-icons build-icons-windows build-icons-macos
+.PHONY: help setup hooks build-icons build-icons-windows build-icons-macos
 
 PROGRAM_ICONS := programs/pbkittyconfigstudio-full.png \
 		 programs/pbnightingale.png \
@@ -18,6 +18,7 @@ MACOS_ICONS := $(foreach src,$(PROGRAM_ICONS),programs/$(call icon_stem,$(src)).
 help:
 	@echo "Available targets:"
 	@echo "  setup                 Install the pre-commit hooks for this repository"
+	@echo "  hooks                 Run all pre-commit hooks against every tracked file"
 	@echo "  build-icons           Rebuild .ico and .icns files for PROGRAM_ICONS whose source changed"
 	@echo "  build-icons-windows   Rebuild .ico files for PROGRAM_ICONS whose source changed"
 	@echo "  build-icons-macos     Rebuild .icns files for PROGRAM_ICONS whose source changed"
@@ -25,6 +26,9 @@ help:
 setup:
 	@command -v pre-commit >/dev/null 2>&1 || pip install --user pre-commit
 	pre-commit install
+
+hooks:
+	pre-commit run --all-files
 
 build-icons: build-icons-windows build-icons-macos
 

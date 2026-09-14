@@ -33,6 +33,17 @@ Pour chaque image, les fichiers suivants peuvent être présents :
 Chaque fichier `xxx.md` débute par un titre, suivi d'un lien vers l'image
 `xxx.png` correspondante, puis d'une courte description.
 
+### Exception : icônes d'action (`actions/`)
+
+Les icônes du répertoire `actions/` sont de simples icônes de barre
+d'outils, suffisamment explicites pour suivre toutes le même prompt de
+génération ; les fichiers `xxx.prompt.txt` et `xxx.md` individuels sont
+donc omis pour elles. Leur prompt commun est stocké une seule fois, à la
+racine du dépôt, dans
+[`general_icon_template.prompt.txt`](general_icon_template.prompt.txt) :
+il suffit de remplacer sa dernière ligne par la description de l'icône à
+générer.
+
 ## Processus de production
 
 La plupart des images pixel (`.png`), sinon toutes, suivent ce processus :
@@ -62,6 +73,7 @@ Cette liste n'est pas exhaustive, mais les projets GitHub suivants utilisent des
 images de ce dépôt :
 
 - [PBCardolan](https://github.com/ppoilbarbe/PBCardolan)
+- [PBNightingale](https://github.com/ppoilbarbe/PBNightingale)
 - [PBPicat](https://github.com/ppoilbarbe/PBPicat)
 - [PBPrompt](https://github.com/ppoilbarbe/PBPrompt)
 - [PBRecipe](https://github.com/ppoilbarbe/PBRecipe)

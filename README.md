@@ -32,6 +32,15 @@ For each image, the following files may be present:
 Each `xxx.md` file starts with a title, followed by a link to the matching
 `xxx.png` image, then a short description.
 
+### Exception: action icons (`actions/`)
+
+Icons in `actions/` are simple, self-explanatory toolbar icons that all
+follow the same generation prompt, so individual `xxx.prompt.txt` and
+`xxx.md` files are omitted for them. Their shared prompt is stored once,
+at the repository root, in
+[`general_icon_template.prompt.txt`](general_icon_template.prompt.txt):
+replace its last line with a description of the icon to generate.
+
 ## Production workflow
 
 Most (if not all) pixel images (`.png`) follow this process:
