@@ -17,7 +17,7 @@ MACOS_ICONS := $(foreach src,$(PROGRAM_ICONS),programs/$(call icon_stem,$(src)).
 
 help:
 	@echo "Available targets:"
-	@echo "  setup                 Install the pre-commit hooks for this repository"
+	@echo "  setup                 Install the Git LFS and pre-commit hooks for this repository"
 	@echo "  hooks                 Run all pre-commit hooks against every tracked file"
 	@echo "  build-icons           Rebuild .ico and .icns files for PROGRAM_ICONS whose source changed"
 	@echo "  build-icons-windows   Rebuild .ico files for PROGRAM_ICONS whose source changed"
@@ -25,8 +25,11 @@ help:
 
 setup:
 	@command -v pre-commit >/dev/null 2>&1 || pip install --user pre-commit
-	pre-commit install
-	pre-commit install -t pre-push
+	@# Git LFS hooks must be installed first so that pre-commit chains them
+	@# as *.legacy; otherwise LFS objects are never uploaded on push.
+	pre-commit uninstall -t pre-commit -t pre-push
+	git lfs install --local --force
+	pre-commit install -t pre-commit -t pre-push
 
 hooks:
 	pre-commit run --all-files

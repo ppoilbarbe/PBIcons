@@ -8,6 +8,13 @@ sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
 ## [Unreleased]
 
+### Fixed
+
+- `make setup` now installs the Git LFS hooks before the pre-commit ones,
+  so that pre-commit chains them and LFS objects are uploaded on push.
+- `README.fr.md` synced with `README.md` (production workflow), with French
+  non-breaking spaces applied throughout.
+
 ## [2026.1] - 2026-10-18
 
 ### Added

@@ -2,12 +2,12 @@
 
 <img src="programs/pbicons.png" alt="Logo PBIcons" width="512" height="512" />
 
-Dépôt personnel des images produites par Philippe Poilbarbe (PB) : surtout
+Dépôt personnel des images produites par Philippe Poilbarbe (PB) : surtout
 des icônes utilisées dans les différents programmes qu'il développe, mais
 aussi d'autres images pour ces programmes, pour son site web
 ([cardolan.net](https://www.cardolan.net)), et pour d'autres documents
 comme des flyers. Les images stockées ici sont les versions originales, en
-taille pleine ; elles peuvent être réutilisées ailleurs en tailles réduites.
+taille pleine ; elles peuvent être réutilisées ailleurs en tailles réduites.
 Chaque image est stockée ici afin d'être réutilisée d'un projet à l'autre.
 
 ## Organisation du dépôt
@@ -21,7 +21,7 @@ Chaque image est stockée ici afin d'être réutilisée d'un projet à l'autre.
 
 ## Contenu du dépôt
 
-Pour chaque image, les fichiers suivants peuvent être présents :
+Pour chaque image, les fichiers suivants peuvent être présents :
 
 | Fichier          | Description                                                                                                                        |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
@@ -33,31 +33,31 @@ Pour chaque image, les fichiers suivants peuvent être présents :
 Chaque fichier `xxx.md` débute par un titre, suivi d'un lien vers l'image
 `xxx.png` correspondante, puis d'une courte description.
 
-### Exception : icônes d'action (`actions/`)
+### Exception : icônes d'action (`actions/`)
 
 Les icônes du répertoire `actions/` sont de simples icônes de barre
 d'outils, suffisamment explicites pour suivre toutes le même prompt de
-génération ; les fichiers `xxx.prompt.txt` et `xxx.md` individuels sont
+génération ; les fichiers `xxx.prompt.txt` et `xxx.md` individuels sont
 donc omis pour elles. Leur prompt commun est stocké une seule fois, à la
 racine du dépôt, dans
-[`general_icon_template.prompt.txt`](general_icon_template.prompt.txt) :
+[`general_icon_template.prompt.txt`](general_icon_template.prompt.txt) :
 il suffit de remplacer sa dernière ligne par la description de l'icône à
 générer.
 
 ## Processus de production
 
-La plupart des images pixel (`.png`), sinon toutes, suivent ce processus :
+La plupart des images pixel (`.png`), sinon toutes, suivent ce processus :
 
-1. **Génération** — l'image est créée avec un outil d'IA générative d'images, à partir du prompt stocké dans le fichier `.prompt.txt` correspondant, quand il existe.
-2. **Retouche** — l'image générée est retravaillée avec GIMP, notamment pour ajouter ou corriger la transparence.
-3. **Vectorisation** — pour les icônes réellement utilisées par les programmes, l'image pixel retravaillée est convertie en fichier vectoriel (`.svg`), qui est le format réellement utilisé dans les programmes cibles.
+1. **Génération** : l'image est créée avec un logiciel de dessin (comme GIMP) ou avec un outil d'IA générative d'images, à partir du prompt stocké dans le fichier `.prompt.txt` correspondant, quand il existe.
+2. **Retouche** : l'image générée, le cas échéant, est retravaillée avec GIMP, notamment pour ajouter ou corriger la transparence.
+3. **Vectorisation** : pour les icônes réellement utilisées par les programmes, l'image pixel retravaillée est convertie en fichier vectoriel (`.svg`), qui est le format réellement utilisé dans les programmes cibles.
 
-### Exception : curseurs de souris (`cursors/`)
+### Exception : curseurs de souris (`cursors/`)
 
-Les curseurs de souris ne suivent pas le processus ci-dessus : le `.svg`
+Les curseurs de souris ne suivent pas le processus ci-dessus : le `.svg`
 est l'image originale, et les fichiers `xxx.png`, `xxx@2x.png`,
 `xxx@3x.png` sont générés à partir de celui-ci, respectivement en
-32×32, 64×64 et 96×96 — une convention de nommage Qt pour les
+32×32, 64×64 et 96×96, selon une convention de nommage Qt pour les
 résolutions d'écrans HiDPI.
 
 ## Contribuer
@@ -70,7 +70,7 @@ chaque commit.
 ## Projets utilisant ces images
 
 Cette liste n'est pas exhaustive, mais les projets GitHub suivants utilisent des
-images de ce dépôt :
+images de ce dépôt :
 
 - [PBCardolan](https://github.com/ppoilbarbe/PBCardolan)
 - [PBNightingale](https://github.com/ppoilbarbe/PBNightingale)
@@ -82,8 +82,8 @@ images de ce dépôt :
 
 ## Crédits
 
-- **Génération des images** : [Venice Studio](https://venice.ai/studio)
-- **Conversion PNG → SVG** : [Perfect Vector](https://perfectvector.com)
+- **Génération des images** : [Venice Studio](https://venice.ai/studio)
+- **Conversion PNG → SVG** : [Perfect Vector](https://perfectvector.com)
 
 ## Licence
 
@@ -96,7 +96,7 @@ Commerciale - Partage dans les Mêmes Conditions). Voir le fichier
 
 © Marcel Spock — PBMou.
 
-« PBMou » est un jeu de mots interlangue : « PB » pour Poilbarbe, et « Mou »
-la traduction française de « Soft » — PBMou se lit donc comme « PBSoft »
+« PBMou » est un jeu de mots interlangue : « PB » pour Poilbarbe, et « Mou »
+la traduction française de « Soft » : PBMou se lit donc comme « PBSoft »
 à moitié traduit en français, dans l'esprit des jeux de mots franco-anglais
 propres aux conventions de nommage de l'auteur.
