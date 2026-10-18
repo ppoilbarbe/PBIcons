@@ -1,0 +1,1 @@
+Créer une icône pour un dépôt de programmes d'extensions de KDEnlive. Aucun texte (à l'exception de KDENLIVE). Fond de couleur unie qui contraste avec l'icône pour facilité le découpage. L'cône occupe le maximum de place dans l'image

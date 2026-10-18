@@ -1,0 +1,1 @@
+Create an icon representing the HAL camera from the film *2001: A Space Odyssey*. Use a solid background that contrasts sharply with the icon's pixels (to make selection easier). The icon should fill as much of the image as possible.

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Flèche identique à copy.svg / move.svg : même pointe centrée (32,32) -->
+  <path d="M32 32 L32 58 L38 53 L43 60 L48 57 L41 48 L50 48 Z"
+        fill="#1a1a1a" stroke="#ffffff" stroke-width="3"
+        stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Badge "lien" : carré arrondi violet avec flèche de raccourci (↗) -->
+  <rect x="40" y="40" width="20" height="20" rx="5" ry="5"
+        fill="#6c4fd1" stroke="#ffffff" stroke-width="3"/>
+  <path d="M44 56 L56 44" stroke="#ffffff" stroke-width="4"
+        stroke-linecap="round" fill="none"/>
+  <path d="M50 44 L56 44 L56 50" stroke="#ffffff" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

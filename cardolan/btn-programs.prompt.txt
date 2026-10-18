@@ -1,0 +1,1 @@
+Créer une icône de bouton pour site web. L'icône occupe le maximum de la surface de de l'image finale sans la déformer. L'arrière-plan est d'une couleur uniforme contrastée (sans dégradé ni ombre) par rapport à l'icône qui facilite le découpage. L'icône représente un CD (couleurs irisées) partiellement masqué par une disquette. Image réaliste.

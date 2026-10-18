@@ -1,0 +1,1 @@
+Create a color application icon. The application is used to catalog images. The icon occupies as much space as possible in the image
