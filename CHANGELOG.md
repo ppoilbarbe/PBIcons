@@ -8,11 +8,18 @@ sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
 ## [Unreleased]
 
+## [2026.2] - 2026-11-23
+
 ### Added
 
 - Action icons: `clear`, `delete-ask`, `delete-noask`, `renumber`, `undo`,
   `view-close`, `view-stop` (SVG source and PNG).
 - Program icons: `pbill` and `pbill-android` (SVG source and PNG).
+
+### Changed
+
+- `markdownlint-cli2` pre-commit hook updated to v0.24.2 and pinned to the
+  Node.js LTS release (the latest Node pre-release broke its installation).
 
 ### Fixed
 
