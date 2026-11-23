@@ -8,6 +8,12 @@ sequential release number within that year (e.g. `2026.1`, `2026.2`, ...).
 
 ## [Unreleased]
 
+### Added
+
+- Action icons: `clear`, `delete-ask`, `delete-noask`, `renumber`, `undo`,
+  `view-close`, `view-stop` (SVG source and PNG).
+- Program icons: `pbill` and `pbill-android` (SVG source and PNG).
+
 ### Fixed
 
 - `make setup` now installs the Git LFS hooks before the pre-commit ones,
